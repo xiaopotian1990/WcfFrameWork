@@ -1,0 +1,9 @@
+
+----------------------application startup--------------------------
+记录时间：2015-10-11 09:47:37,576 线程ID:[12] 日志级别：ERROR 所在类：Error property:[(null)] - 日志描述：在执行 WcfFrameWork.Services.ExceptionTest 时产生异常
+System.DivideByZeroException: 尝试除以零。
+   在 WcfFrameWork.Services.ExceptionTest.Test(TestDTO dto) 位置 M:\WcfFrameWork\WcfFrameWork.Services\ExceptionTest.cs:行号 19
+   在 SyncInvokeTest(Object , Object[] , Object[] )
+   在 System.ServiceModel.Dispatcher.SyncMethodInvoker.Invoke(Object instance, Object[] inputs, Object[]& outputs)
+   在 WcfFrameWork.Services.Filters.GenericInvoker.Invoke(Object instance, Object[] inputs, Object[]& outputs) 位置 M:\WcfFrameWork\WcfFrameWork.Services\Filters\GenericInvoker.cs:行号 47
+   在 System.ServiceModel.Dispatcher.DispatchOperationRuntime.InvokeBegin(MessageRpc& rpc)

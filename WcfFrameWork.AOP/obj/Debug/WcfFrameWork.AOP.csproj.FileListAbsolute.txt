@@ -1,0 +1,7 @@
+M:\WcfFrameWork\WcfFrameWork.AOP\bin\Debug\WcfFrameWork.AOP.dll
+M:\WcfFrameWork\WcfFrameWork.AOP\bin\Debug\WcfFrameWork.AOP.pdb
+M:\WcfFrameWork\WcfFrameWork.AOP\bin\Debug\log4net.dll
+M:\WcfFrameWork\WcfFrameWork.AOP\bin\Debug\log4net.xml
+M:\WcfFrameWork\WcfFrameWork.AOP\obj\Debug\WcfFrameWork.AOP.dll
+M:\WcfFrameWork\WcfFrameWork.AOP\obj\Debug\WcfFrameWork.AOP.pdb
+M:\WcfFrameWork\WcfFrameWork.AOP\bin\Debug\Log4Net.config

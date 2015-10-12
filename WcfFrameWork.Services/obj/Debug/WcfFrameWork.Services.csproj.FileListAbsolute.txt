@@ -1,0 +1,14 @@
+M:\WcfFrameWork\WcfFrameWork.Services\bin\Debug\WcfFrameWork.Services.dll
+M:\WcfFrameWork\WcfFrameWork.Services\bin\Debug\WcfFrameWork.Services.pdb
+M:\WcfFrameWork\WcfFrameWork.Services\bin\Debug\WcfFrameWork.IServices.dll
+M:\WcfFrameWork\WcfFrameWork.Services\bin\Debug\WcfFrameWork.IServices.pdb
+M:\WcfFrameWork\WcfFrameWork.Services\obj\Debug\WcfFrameWork.Services.csprojResolveAssemblyReference.cache
+M:\WcfFrameWork\WcfFrameWork.Services\obj\Debug\WcfFrameWork.Services.dll
+M:\WcfFrameWork\WcfFrameWork.Services\obj\Debug\WcfFrameWork.Services.pdb
+M:\WcfFrameWork\WcfFrameWork.Services\bin\Debug\Log4Net.config
+M:\WcfFrameWork\WcfFrameWork.Services\bin\Debug\WcfFrameWork.AOP.dll
+M:\WcfFrameWork\WcfFrameWork.Services\bin\Debug\log4net.dll
+M:\WcfFrameWork\WcfFrameWork.Services\bin\Debug\WcfFrameWork.AOP.pdb
+M:\WcfFrameWork\WcfFrameWork.Services\bin\Debug\log4net.xml
+M:\WcfFrameWork\WcfFrameWork.Services\bin\Debug\WcfFrameWork.DTO.dll
+M:\WcfFrameWork\WcfFrameWork.Services\bin\Debug\WcfFrameWork.DTO.pdb
