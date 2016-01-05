@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Newtonsoft.Json;
+using System;
 using System.Globalization;
 using System.ServiceModel.Dispatcher;
 using System.Threading.Tasks;
@@ -16,7 +17,7 @@ namespace WcfFrameWork.Services.Filters
             log = new MonitorLog();
             log.ExecuteStartTime = Convert.ToDateTime(DateTime.Now.ToString("yyyy/MM/dd HH:mm:ss.ffff", DateTimeFormatInfo.InvariantInfo));
             log.FuncName = instance.ToString();
-            log.Params = inputs;
+            log.Params = JsonConvert.SerializeObject(inputs);
         }
 
         protected override void PostInvoke(object instance, object returnedValue, object[] outputs, Exception exception)

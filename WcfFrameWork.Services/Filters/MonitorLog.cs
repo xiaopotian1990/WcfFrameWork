@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Specialized;
 
 namespace WcfFrameWork.Services.Filters
 {
@@ -23,7 +24,7 @@ namespace WcfFrameWork.Services.Filters
         /// <summary>
         /// Form 表单数据
         /// </summary>
-        public object[] Params
+        public string Params
         {
             get;
             set;
@@ -51,7 +52,7 @@ namespace WcfFrameWork.Services.Filters
                 ExecuteStartTime,
                 ExecuteEndTime,
                 (ExecuteEndTime - ExecuteStartTime).TotalSeconds,
-                GetCollections(Params)
+                Params
                 );
         }
 
@@ -60,14 +61,23 @@ namespace WcfFrameWork.Services.Filters
         /// </summary>
         /// <param name="Collections"></param>
         /// <returns></returns>
-        public string GetCollections(object[] Collections)
+        public string GetCollections(NameValueCollection Collections)
         {
-            string result = "";
-            foreach (var a in Collections)
+            string Parameters = string.Empty;
+            if (Collections == null || Collections.Count == 0)
             {
-                result += a.ToString() + "|";
+                return Parameters;
             }
-            return result;
+            foreach (string key in Collections.Keys)
+            {
+                Parameters += string.Format("{0}={1}&", key, Collections[key]);
+            }
+            if (!string.IsNullOrWhiteSpace(Parameters) && Parameters.EndsWith("&"))
+            {
+                Parameters = Parameters.Substring(0, Parameters.Length - 1);
+            }
+            return Parameters;
+
         }
 
     }

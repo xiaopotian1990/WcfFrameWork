@@ -13,5 +13,8 @@ namespace WcfFrameWork.IServices
     {
         [OperationContract]
         int Test(TestDTO dto);
+
+        [OperationContract]
+        string Test2(TestDTO dto, string a, TestDTO dto2);
     }
 }

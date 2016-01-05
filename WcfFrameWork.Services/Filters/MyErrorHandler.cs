@@ -42,7 +42,7 @@ namespace WcfFrameWork.Services.Filters
 
             MessageFault msgFault = newEx.CreateMessageFault();
             fault = Message.CreateMessage(version, msgFault, newEx.Action);
-            LogHelper.Error(err);
+            LogHelper.Error(err,error);
         }
     }
 }

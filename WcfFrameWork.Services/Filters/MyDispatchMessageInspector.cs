@@ -28,6 +28,7 @@ namespace WcfFrameWork.Services.Filters
         /// </returns>
         public object AfterReceiveRequest(ref Message request, IClientChannel channel, InstanceContext instanceContext)
         {
+
             LogHelper.Info(request.ToString());
             return null;
         }
@@ -42,7 +43,15 @@ namespace WcfFrameWork.Services.Filters
         /// </param>
         public void BeforeSendReply(ref Message reply, object correlationState)
         {
-            LogHelper.Info(reply.ToString());
+            //提供方法执行的上下文环境
+            OperationContext context = OperationContext.Current;
+            //获取传进的消息属性
+            MessageProperties properties = context.IncomingMessageProperties;
+            //获取消息发送的远程终结点IP和端口
+            RemoteEndpointMessageProperty endpoint = properties[RemoteEndpointMessageProperty.Name] as RemoteEndpointMessageProperty;
+
+            string ip = endpoint.Address;
+            LogHelper.Info("IP: " + ip + "    " + reply.ToString());
         }
     }
 }

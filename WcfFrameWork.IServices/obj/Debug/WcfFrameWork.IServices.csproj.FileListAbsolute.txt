@@ -5,3 +5,17 @@ M:\WcfFrameWork\WcfFrameWork.IServices\obj\Debug\WcfFrameWork.IServices.pdb
 M:\WcfFrameWork\WcfFrameWork.IServices\obj\Debug\WcfFrameWork.IServices.csprojResolveAssemblyReference.cache
 M:\WcfFrameWork\WcfFrameWork.IServices\bin\Debug\WcfFrameWork.DTO.dll
 M:\WcfFrameWork\WcfFrameWork.IServices\bin\Debug\WcfFrameWork.DTO.pdb
+H:\GitHub\WcfFrameWork\WcfFrameWork.IServices\bin\Debug\WcfFrameWork.IServices.dll
+H:\GitHub\WcfFrameWork\WcfFrameWork.IServices\bin\Debug\WcfFrameWork.IServices.pdb
+H:\GitHub\WcfFrameWork\WcfFrameWork.IServices\bin\Debug\WcfFrameWork.DTO.dll
+H:\GitHub\WcfFrameWork\WcfFrameWork.IServices\bin\Debug\WcfFrameWork.DTO.pdb
+H:\GitHub\WcfFrameWork\WcfFrameWork.IServices\obj\Debug\WcfFrameWork.IServices.csprojResolveAssemblyReference.cache
+H:\GitHub\WcfFrameWork\WcfFrameWork.IServices\obj\Debug\WcfFrameWork.IServices.dll
+H:\GitHub\WcfFrameWork\WcfFrameWork.IServices\obj\Debug\WcfFrameWork.IServices.pdb
+M:\GitHub\WcfFrameWork\WcfFrameWork.IServices\bin\Debug\WcfFrameWork.IServices.dll
+M:\GitHub\WcfFrameWork\WcfFrameWork.IServices\bin\Debug\WcfFrameWork.IServices.pdb
+M:\GitHub\WcfFrameWork\WcfFrameWork.IServices\bin\Debug\WcfFrameWork.DTO.dll
+M:\GitHub\WcfFrameWork\WcfFrameWork.IServices\bin\Debug\WcfFrameWork.DTO.pdb
+M:\GitHub\WcfFrameWork\WcfFrameWork.IServices\obj\Debug\WcfFrameWork.IServices.csprojResolveAssemblyReference.cache
+M:\GitHub\WcfFrameWork\WcfFrameWork.IServices\obj\Debug\WcfFrameWork.IServices.dll
+M:\GitHub\WcfFrameWork\WcfFrameWork.IServices\obj\Debug\WcfFrameWork.IServices.pdb
